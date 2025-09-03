@@ -6,7 +6,7 @@ const supabase = createClient(
   ''
 );
 
-const guildId = ''; // <- ID twojego serwera
+const guildId = '1281737111103340585'; // <- ID twojego serwera
 const botToken = process.env.DISCORD_BOT_TOKEN; // <- Dodaj do .env lub wpisz ręcznie (jeśli testujesz)
 
 export default async function handler(req, res) {
@@ -74,3 +74,4 @@ export default async function handler(req, res) {
     return res.status(500).send('Błąd logowania');
   }
 }
+
